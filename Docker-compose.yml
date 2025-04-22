@@ -1,7 +1,8 @@
 services:
   web:
-    build: 
-      context: "https://github.com/miuguelt/HolaDocker.git"
+    build:
+      image: python:3.13-alpine
+      context: "https://github.com/andetazz/1Dockerandy.git"
       dockerfile: Dockerfile
     volumes:
       - .:/app
